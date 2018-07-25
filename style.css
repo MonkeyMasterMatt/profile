@@ -22,6 +22,34 @@ h2 {
   font-size: 18px;
   font-weight: 300;
 }
+/* SIDEBAR */
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #374047;
+}
+
+#sidebar a {
+  display: block;
+  padding: 0px 0px 8px 0px;
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+}
+
+#sidebar a:hover {
+  background-color: #428e92;
+  color: white;
+}
+
+#page-content {
+  margin-left: 120px;
+  padding: 0px 10px;
+}
 
 /* Class specifiers */
 
@@ -48,7 +76,7 @@ h2 {
 
 a.links-social-media {
   text-decoration: none;
-  color:   #ccc;
+  color: #ccc;
 }
 
 a.links-social-media:hover {
