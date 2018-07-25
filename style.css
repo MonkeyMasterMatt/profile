@@ -1,0 +1,124 @@
+/* Non-class or ID specifiers */
+
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  color: #1E1E1E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.6em;
+  color: #006064;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Class specifiers */
+
+.movie-text {
+  padding-left: 20px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.list-inline {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.remove-bullet-point {
+  list-style-type: none;
+}
+
+a.links-social-media {
+  text-decoration: none;
+  color:   #ccc;
+}
+
+a.links-social-media:hover {
+  color: #6d6d6d;
+}
+
+.btn-blue {
+  display: inline-block;
+  background-color: #006064;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  padding: 10px 15px;
+}
+
+.btn-blue:hover {
+  background-color: #428e92;
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-profile {
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  width:150px;
+  height: auto;
+  border: 2px solid #EBEBEB;
+}
+
+#title-blue {
+  color: #00363a;
+}
+
+/* For a responsive design */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
